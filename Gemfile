@@ -3,10 +3,12 @@ gem "rake", "~> 0.9.2.2"
 gem 'rails', '3.2.3' 
 gem 'nokogiri', '1.4.2'
 gem 'bootstrap-sass', '2.0.0'
+gem 'bcrypt-ruby', '3.0.1'
  
 group :development , :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.10.0'
+  gem 'annotate'
 end 
  
  
