@@ -13,7 +13,6 @@ class UsersController < ApplicationController
   		flash[:sucess] = "Welcome to the Sample App!"
   		redirect_to @user
   	else
-  	flash[:unsuccessful] = "Oops!"
   	render 'new'
   end
   end
